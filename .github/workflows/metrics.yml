@@ -27,9 +27,9 @@ jobs:
           base: header
           repositories_forks: no
 
-          # Isocalendar plugin (isometric half-year view)
+          # Isocalendar plugin (isometric full-year view)
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
 
           # Languages plugin (recently used with indepth analysis)
           plugin_languages: yes
