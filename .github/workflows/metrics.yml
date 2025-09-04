@@ -1,0 +1,42 @@
+name: Metrics
+on:
+  # Schedule daily updates
+  schedule: [{ cron: "0 0 * * *" }]
+  # Allow manual trigger
+  workflow_dispatch:
+  # Update when pushing to master
+  push: { branches: ["master"] }
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          user: hexpreso
+          template: classic
+          filename: metrics.svg
+
+          # Base info
+          base: header, repositories
+          repositories_forks: no
+
+          # Coding habits plugin
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_languages_limit: 5
+          plugin_habits_days: 21
+          plugin_habits_charts_type: classic
+
+          # Lines of code plugin
+          plugin_lines: yes
+          plugin_lines_sections: base, repositories, history
+          plugin_lines_repositories_limit: 6
+          plugin_lines_history_limit: 2
