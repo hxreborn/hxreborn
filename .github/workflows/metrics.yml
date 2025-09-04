@@ -27,11 +27,9 @@ jobs:
           base: header
           repositories_forks: no
 
-          # GitHub Skyline plugin (3D commit visualization)
-          plugin_skyline: yes
-          plugin_skyline_year: current
-          plugin_skyline_frames: 60
-          plugin_skyline_quality: 0.5
+          # Isocalendar plugin (isometric half-year view)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
 
           # Languages plugin (recently used with indepth analysis)
           plugin_languages: yes
