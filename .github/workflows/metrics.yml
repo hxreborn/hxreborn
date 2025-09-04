@@ -24,19 +24,15 @@ jobs:
           filename: metrics.svg
 
           # Base info
-          base: header, repositories
+          base: header
           repositories_forks: no
 
-          # Coding habits plugin
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_languages_limit: 5
-          plugin_habits_days: 21
-          plugin_habits_charts_type: classic
+          # Isocalendar plugin (yearly commit grid)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
 
-          # Lines of code plugin
-          plugin_lines: yes
-          plugin_lines_sections: base, repositories, history
-          plugin_lines_repositories_limit: 6
-          plugin_lines_history_limit: 2
+          # Languages plugin (simple)
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 6
+          plugin_languages_details: percentage
