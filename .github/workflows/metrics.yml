@@ -19,7 +19,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: hexpreso
+          user: hxreborn
           template: classic
           filename: metrics.svg
 
