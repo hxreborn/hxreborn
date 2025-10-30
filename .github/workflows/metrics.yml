@@ -39,3 +39,6 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7
+
+          # Snippet of the day plugin
+          plugin_code_snippet: yes
