@@ -34,7 +34,7 @@ jobs:
           # Languages plugin (recently-used with indepth analysis)
           plugin_languages: yes
           plugin_languages_indepth: yes
-          plugin_languages_sections: recently-used
+          plugin_languages_sections: most-used
           plugin_languages_limit: 6
           plugin_languages_details: percentage
           plugin_languages_recent_load: 400
