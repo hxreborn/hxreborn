@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: hxreborn/metrics@master
+      - uses: lowlighter/metrics@latest
         with:
           # GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -26,6 +26,7 @@ jobs:
           # Base info
           base: header
           repositories_forks: no
+          commits_authoring: 32096750+hxreborn@users.noreply.github.com, hxreborn
 
           # Isocalendar plugin (isometric full-year view)
           plugin_isocalendar: yes
@@ -41,6 +42,3 @@ jobs:
           plugin_languages_recent_days: 14
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
-
-          # Snippet of the day plugin
-          plugin_code_snippet: yes
