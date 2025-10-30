@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@v3.33
+      - uses: lowlighter/metrics@latest
         with:
           # GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -31,7 +31,11 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Languages plugin (basic configuration only)
+          # Languages plugin (with recently-used section)
           plugin_languages: yes
           plugin_languages_limit: 6
           plugin_languages_details: percentage
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_categories: markup, programming
