@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: hxreborn/metrics@master
+      - uses: lowlighter/metrics@latest
         with:
           # GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -40,4 +40,4 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_recent_days: 14
           plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 2
+          plugin_languages_analysis_timeout_repositories: 7
