@@ -26,16 +26,19 @@ jobs:
           # Base info
           base: header
           repositories_forks: no
+          commits_authoring: 32096750+hxreborn@users.noreply.github.com, hxreborn
 
           # Isocalendar plugin (isometric full-year view)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Languages plugin (with recently-used section)
+          # Languages plugin (recently-used with indepth analysis)
           plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_sections: most-used, recently-used
           plugin_languages_limit: 6
           plugin_languages_details: percentage
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_recent_load: 300
+          plugin_languages_recent_load: 400
           plugin_languages_recent_days: 14
-          plugin_languages_recent_categories: markup, programming
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
