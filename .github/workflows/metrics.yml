@@ -36,19 +36,19 @@ jobs:
           plugin_languages_limit: 6
           plugin_languages_aliases: rs=Rust
           plugin_languages_sections: most-used, recently-used
-          plugin_languages_details: lines
+          plugin_languages_details: percentage
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
-          plugin_languages_recent_load: 400
-          plugin_languages_recent_days: 16
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 10
 
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_repositories: no
           plugin_notable_indepth: no
           plugin_notable_types: pull_request
-          plugin_notable_limit: 3
+          plugin_notable_limit: 4
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
