@@ -33,12 +33,13 @@ jobs:
 
           plugin_languages: yes
           plugin_languages_ignored: markdown, smali, renderscript
+          plugin_languages_threshold: 1
           plugin_languages_limit: 6
           plugin_languages_aliases: rs=Rust
           plugin_languages_sections: most-used, recently-used
           plugin_languages_details: percentage
           plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 60
+          plugin_languages_analysis_timeout: 30
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_recent_load: 300
           plugin_languages_recent_days: 10
