@@ -66,7 +66,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 11.7mb of code in 733 edited files across 346 commits</small>
+                <small>estimation from 11.7mb of code in 734 edited files across 347 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -89,7 +89,7 @@
                                 Shell
                             </div>
                             <small>
-                                <div>3.01k lines</div>
+                                <div>30.78%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -100,7 +100,7 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>2.16k lines</div>
+                                <div>20.34%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -111,7 +111,7 @@
                                 Python
                             </div>
                             <small>
-                                <div>699 lines</div>
+                                <div>7.23%</div>
                             </small>
                         </div>
                     </section>
@@ -124,7 +124,7 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>1.92k lines</div>
+                                <div>21.13%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -135,7 +135,7 @@
                                 Kotlin
                             </div>
                             <small>
-                                <div>1.62k lines</div>
+                                <div>18.56%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -146,7 +146,7 @@
                                 Java
                             </div>
                             <small>
-                                <div>189 lines</div>
+                                <div>1.97%</div>
                             </small>
                         </div>
                     </section>
@@ -154,18 +154,18 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 705kb of code in 279 edited files across 233 commits over last 16 days</small>
+                <small>estimation from 523kb of code in 211 edited files across 186 commits over last 10 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="295.85223443044964" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="295.85223443044964" y="0" width="58.55109183781193" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="354.4033262682616" y="0" width="50.530854873681385" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="404.934181141943" y="0" width="48.94324392363226" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="453.8774250655752" y="0" width="5.024321712508425" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="458.90174677808363" y="0" width="1.09825322191634" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="287.781204737156" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="287.781204737156" y="0" width="61.43000766805828" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="349.21121240521427" y="0" width="53.01542131720201" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="402.2266337224163" y="0" width="51.3497486580898" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="453.57638238050606" y="0" width="5.271364062366874" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="458.84774644287296" y="0" width="1.1522535571270343" height="8" fill="#384d54"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -177,7 +177,7 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>2.30k lines</div>
+                                <div>62.56%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -188,7 +188,7 @@
                                 Kotlin
                             </div>
                             <small>
-                                <div>352 lines</div>
+                                <div>11.53%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -199,7 +199,7 @@
                                 Java
                             </div>
                             <small>
-                                <div>41 lines</div>
+                                <div>1.15%</div>
                             </small>
                         </div>
                     </section>
@@ -212,7 +212,7 @@
                                 Shell
                             </div>
                             <small>
-                                <div>470 lines</div>
+                                <div>13.35%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -223,7 +223,7 @@
                                 Python
                             </div>
                             <small>
-                                <div>403 lines</div>
+                                <div>11.16%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -234,7 +234,7 @@
                                 Dockerfile
                             </div>
                             <small>
-                                <div>4 lines</div>
+                                <div>0.25%</div>
                             </small>
                         </div>
                     </section>
@@ -2292,7 +2292,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 1 Nov 2025, 09:51:00  with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 1 Nov 2025, 10:35:45  with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
