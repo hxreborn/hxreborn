@@ -33,7 +33,6 @@ jobs:
 
           plugin_languages: yes
           plugin_languages_ignored: markdown, smali, renderscript
-          plugin_languages_threshold: 1
           plugin_languages_limit: 6
           plugin_languages_aliases: rs=Rust
           plugin_languages_sections: most-used, recently-used
