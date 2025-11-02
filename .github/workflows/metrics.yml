@@ -1,7 +1,7 @@
 name: Metrics
 on:
   # Schedule daily updates
-  schedule: [{ cron: "0 0 * * *" }]
+  schedule: [{ cron: "0 */6 * * *" }]
   # Allow manual trigger
   workflow_dispatch:
   # Update when pushing to master
@@ -37,10 +37,10 @@ jobs:
           plugin_languages_sections: most-used, recently-used
           plugin_languages_details: percentage
           plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 30
+          plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
-          plugin_languages_recent_load: 300
-          plugin_languages_recent_days: 10
+          plugin_languages_recent_load: 500
+          plugin_languages_recent_days: 14
 
           plugin_notable: yes
           plugin_notable_from: organization
@@ -56,4 +56,4 @@ jobs:
           config_output: markdown-details
           config_padding: 0, 10%
 
-          repositories_skipped: superpowergpt-userdata-backup, s5cmd, sketchybar-config, dotfiles, revanced-magisk-module, zsh-config
+          repositories_skipped: superpowergpt-userdata-backup, s5cmd, sketchybar-config, dotfiles, revanced-magisk-module, zsh-config, revanced-research
