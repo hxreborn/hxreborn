@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="765" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="780" class="">
     <defs>
         <style/>
     </defs>
@@ -66,7 +66,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 306kb of code in 119 edited files across 68 commits</small>
+                <small>estimation from 307kb of code in 120 edited files across 69 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -2267,7 +2267,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 3 Nov 2025, 12:50:03  with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 3 Nov 2025, 13:51:59  with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
