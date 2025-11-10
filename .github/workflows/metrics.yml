@@ -38,8 +38,8 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
-          plugin_languages_recent_load: 298
-          plugin_languages_recent_days: 7
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 15
 
           plugin_notable: yes
           plugin_notable_from: organization
@@ -54,4 +54,4 @@ jobs:
 
           config_output: markdown-details
 
-          repositories_skipped: superpowergpt-userdata-backup, dotfiles, revanced-magisk-module, zsh-config, revanced-research, android_kernel_google_zumapro
+          repositories_skipped: s5cmd
