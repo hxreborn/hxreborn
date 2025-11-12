@@ -154,18 +154,18 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 798kb of code in 273 edited files across 169 commits over last 15 days</small>
+                <small>estimation from 728kb of code in 257 edited files across 153 commits over last 15 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="317.10801960192305" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="317.10801960192305" y="0" width="99.55354861827678" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="416.6615682201998" y="0" width="18.513001038490504" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="435.1745692586903" y="0" width="14.734090026841494" height="8" fill="#427819"/>
-                    <rect mask="url(#languages-bar)" x="449.9086592855318" y="0" width="9.203082956479616" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="459.1117422420114" y="0" width="0.88825775798858" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="324.54655660105067" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="324.54655660105067" y="0" width="101.88881833400681" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="426.43537493505744" y="0" width="15.07971381128795" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="441.51508874634544" y="0" width="9.418963567647229" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="450.93405231399265" y="0" width="8.156853689926008" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="459.0909060039187" y="0" width="0.9090939960813743" height="8" fill="#663399"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -177,7 +177,18 @@
                                 Go
                             </div>
                             <small>
-                                <div>68.94%</div>
+                                <div>70.55%</div>
+                            </small>
+                        </div>
+                        <div class="field language details">
+                            <div class="field">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                    <path fill="#427819" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                </svg>
+                                Makefile
+                            </div>
+                            <small>
+                                <div>3.28%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -188,18 +199,7 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>4.02%</div>
-                            </small>
-                        </div>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#A97BFF" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                Kotlin
-                            </div>
-                            <small>
-                                <div>2%</div>
+                                <div>1.77%</div>
                             </small>
                         </div>
                     </section>
@@ -212,18 +212,18 @@
                                 Shell
                             </div>
                             <small>
-                                <div>21.64%</div>
+                                <div>22.15%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#427819" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#A97BFF" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Makefile
+                                Kotlin
                             </div>
                             <small>
-                                <div>3.2%</div>
+                                <div>2.05%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -234,7 +234,7 @@
                                 CSS
                             </div>
                             <small>
-                                <div>0.19%</div>
+                                <div>0.2%</div>
                             </small>
                         </div>
                     </section>
@@ -2271,7 +2271,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 12 Nov 2025, 06:17:05  with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 12 Nov 2025, 12:18:00  with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
