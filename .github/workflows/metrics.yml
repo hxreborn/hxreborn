@@ -1,7 +1,7 @@
 name: Metrics
 on:
-  # Schedule daily updates
-  schedule: [{ cron: "0 */6 * * *" }]
+  # Schedule updates twice daily (every 12 hours)
+  schedule: [{ cron: "0 */12 * * *" }]
   # Allow manual trigger
   workflow_dispatch:
   # Update when pushing to master
