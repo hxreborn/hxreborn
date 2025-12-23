@@ -19,6 +19,7 @@ jobs:
 
           base: header, metadata
           repositories_forks: yes
+          commits_authoring: hxreborn, 32096750+hxreborn@users.noreply.github.com
 
           plugin_languages: yes
           plugin_languages_limit: 8
