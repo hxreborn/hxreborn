@@ -18,6 +18,7 @@ jobs:
           filename: metrics.svg
 
           base: header, metadata
+          repositories_forks: yes
 
           plugin_languages: yes
           plugin_languages_limit: 8
@@ -26,7 +27,7 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 45
           plugin_languages_analysis_timeout_repositories: 10
-          plugin_languages_recent_load: 150
+          plugin_languages_recent_load: 300
           plugin_languages_recent_days: 14
           plugin_languages_ignored: smali, rust
 
