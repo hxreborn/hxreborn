@@ -29,7 +29,7 @@ jobs:
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_recent_load: 1000
-          plugin_languages_recent_days: 14
+          plugin_languages_recent_days: 20
           plugin_languages_ignored: smali, rust
 
           plugin_notable: yes
