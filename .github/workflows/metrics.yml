@@ -1,10 +1,7 @@
 name: Metrics
 on:
-  # Schedule updates twice daily (every 12 hours)
-  schedule: [{ cron: "0 */12 * * *" }]
-  # Allow manual trigger
+  schedule: [{ cron: "0 0 * * *" }]
   workflow_dispatch:
-  # Update when pushing to master
   push: { branches: ["master"] }
 
 jobs:
@@ -13,46 +10,46 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Using hxreborn/metrics fork until PR #1754 is merged into lowlighter/metrics
-      # Fixes: GitHub Events API removed commit details, breaking recently-used languages
-      # See: https://github.com/lowlighter/metrics/pull/1754
       - uses: hxreborn/metrics@fix-recent-languages
         with:
-          # GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
           user: hxreborn
           template: classic
           filename: metrics.svg
 
-          # Base info
           base: header, metadata
-          repositories_forks: no
-          commits_authoring: 32096750+hxreborn@users.noreply.github.com, hxreborn
 
           plugin_languages: yes
-          plugin_languages_limit: 6
+          plugin_languages_limit: 8
           plugin_languages_sections: most-used, recently-used
           plugin_languages_details: percentage
           plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 60
-          plugin_languages_analysis_timeout_repositories: 15
-          plugin_languages_recent_load: 300
-          plugin_languages_recent_days: 15
-          plugin_languages_ignored: smali
+          plugin_languages_analysis_timeout: 45
+          plugin_languages_analysis_timeout_repositories: 10
+          plugin_languages_recent_load: 150
+          plugin_languages_recent_days: 14
+          plugin_languages_ignored: smali, rust
 
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_repositories: no
           plugin_notable_indepth: no
           plugin_notable_types: pull_request
-          plugin_notable_limit: 4
+          plugin_notable_skipped: |
+            @use.patterns
+            Xposed-Modules-Repo/*
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_isocalendar_colors: github
 
           config_output: markdown-details
 
-          repositories_skipped: s5cmd
+          repositories_skipped: |
+            peak/s5cmd
+            hxreborn/android_kernel_google_zumapro
+            hxreborn/KernelSU
+            hxreborn/kernel_oneplus_sdm845
+            hxreborn/revanced-magisk-module
+            hxreborn/sketchybar-config
+            hxreborn/dotfiles
+            hxreborn/neovim
