@@ -18,15 +18,17 @@ jobs:
           filename: metrics.svg
 
           base: header, metadata
-          repositories_forks: yes
+          repositories_forks: no
           commits_authoring: hxreborn, rafareborn, 32096750+hxreborn@users.noreply.github.com
 
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
-          plugin_languages_indepth: no
-          plugin_languages_ignored: smali, rust
+          plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 60
+          plugin_languages_analysis_timeout_repositories: 15
+          plugin_languages_ignored: rust
 
           plugin_notable: yes
           plugin_notable_from: organization
@@ -51,3 +53,5 @@ jobs:
             hxreborn/sketchybar-config
             hxreborn/dotfiles
             hxreborn/neovim
+            hxreborn/biometric-bypass
+            hxreborn/revanced-research
