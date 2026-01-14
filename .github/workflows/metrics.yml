@@ -18,7 +18,7 @@ jobs:
           filename: metrics.svg
 
           base: header, metadata
-          repositories_forks: yes
+          repositories_forks: no
           commits_authoring: hxreborn, rafareborn, 32096750+hxreborn@users.noreply.github.com
 
           plugin_languages: yes
@@ -29,7 +29,6 @@ jobs:
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_ignored: rust
-          debug: yes
 
           plugin_notable: yes
           plugin_notable_from: organization
