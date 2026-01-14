@@ -29,7 +29,6 @@ jobs:
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_ignored: rust
-          plugin_languages_colors: github
 
           plugin_notable: yes
           plugin_notable_from: organization
@@ -66,4 +65,3 @@ jobs:
             hxreborn/telegram-android
             hxreborn/hyde-ipc
             hxreborn/InstallerPlus
-            hxreborn/exit0-phd
