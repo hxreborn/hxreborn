@@ -29,6 +29,7 @@ jobs:
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_ignored: rust
+          plugin_languages_colors: "Kotlin:#A97BFF, Java:#b07219, JavaScript:#f1e05a, TypeScript:#3178c6, Go:#00ADD8, Python:#3572A5, Shell:#89e051, C#:#178600"
 
           plugin_notable: yes
           plugin_notable_from: organization
@@ -43,7 +44,6 @@ jobs:
           plugin_isocalendar_duration: full-year
 
           config_output: markdown-details
-          debug: yes
 
           repositories_skipped: |
             peak/s5cmd
