@@ -29,6 +29,7 @@ jobs:
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_ignored: rust
+          debug: yes
 
           plugin_notable: yes
           plugin_notable_from: organization
