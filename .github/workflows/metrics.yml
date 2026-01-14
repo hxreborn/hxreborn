@@ -29,7 +29,7 @@ jobs:
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_ignored: rust
-          plugin_languages_colors: "Kotlin:#A97BFF, Java:#b07219, JavaScript:#f1e05a, TypeScript:#3178c6, Go:#00ADD8, Python:#3572A5, Shell:#89e051, C#:#178600"
+          plugin_languages_colors: "0:#A97BFF, 1:#b07219, 2:#f1e05a, 3:#3178c6, 4:#00ADD8, 5:#3572A5, 6:#89e051, 7:#178600"
 
           plugin_notable: yes
           plugin_notable_from: organization
