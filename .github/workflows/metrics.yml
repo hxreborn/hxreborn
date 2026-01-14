@@ -18,7 +18,7 @@ jobs:
           filename: metrics.svg
 
           base: header, metadata
-          repositories_forks: no
+          repositories_forks: yes
           commits_authoring: hxreborn, rafareborn, 32096750+hxreborn@users.noreply.github.com
 
           plugin_languages: yes
@@ -55,3 +55,13 @@ jobs:
             hxreborn/neovim
             hxreborn/biometric-bypass
             hxreborn/revanced-research
+            hxreborn/HyDE
+            hxreborn/metrics
+            hxreborn/revanced-patches
+            hxreborn/codex
+            hxreborn/cloudflared
+            hxreborn/openai-agents-python
+            hxreborn/revanced-integrations
+            hxreborn/telegram-android
+            hxreborn/hyde-ipc
+            hxreborn/InstallerPlus
