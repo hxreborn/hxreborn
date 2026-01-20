@@ -19,6 +19,7 @@ jobs:
 
           base: header, metadata
           repositories_forks: no
+          repositories_affiliations: owner, collaborator, organization_member
           commits_authoring: ${{ secrets.COMMITS_AUTHORING }}
 
           plugin_languages: yes
