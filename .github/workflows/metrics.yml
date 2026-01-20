@@ -19,7 +19,7 @@ jobs:
 
           base: header, metadata
           repositories_forks: no
-          commits_authoring: hxreborn, rafareborn, 32096750+hxreborn@users.noreply.github.com
+          commits_authoring: ${{ secrets.COMMITS_AUTHORING }}
 
           plugin_languages: yes
           plugin_languages_limit: 8
