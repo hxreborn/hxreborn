@@ -27,7 +27,7 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
           plugin_languages_indepth: no
-          plugin_languages_ignored: rust
+          plugin_languages_categories: programming
 
           plugin_notable: yes
           plugin_notable_from: organization
@@ -42,7 +42,6 @@ jobs:
           plugin_isocalendar_duration: full-year
 
           config_output: markdown-details
-          debug: yes
 
           repositories_skipped: |
             peak/s5cmd
@@ -53,16 +52,10 @@ jobs:
             hxreborn/sketchybar-config
             hxreborn/dotfiles
             hxreborn/neovim
-            hxreborn/biometric-bypass
             hxreborn/revanced-research
             hxreborn/HyDE
             hxreborn/metrics
-            hxreborn/revanced-patches
             hxreborn/codex
             hxreborn/cloudflared
             hxreborn/openai-agents-python
-            hxreborn/revanced-integrations
             hxreborn/telegram-android
-            hxreborn/hyde-ipc
-            hxreborn/InstallerPlus
-            hxreborn/exit0-phd
