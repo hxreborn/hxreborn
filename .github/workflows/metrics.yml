@@ -17,8 +17,8 @@ jobs:
           template: classic
           filename: metrics.svg
 
-          base: header, metadata
-          repositories_forks: yes
+          base: header, repositories, metadata
+          repositories_forks: no
           repositories_affiliations: owner, collaborator, organization_member
           commits_authoring: ${{ secrets.COMMITS_AUTHORING }}
 
