@@ -42,7 +42,6 @@ jobs:
           plugin_isocalendar_duration: full-year
 
           config_output: markdown-details
-          debug: yes
 
           repositories_skipped: |
             peak/s5cmd
