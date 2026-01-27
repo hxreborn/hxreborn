@@ -11,13 +11,14 @@ jobs:
       contents: write
     steps:
       - uses: lowlighter/metrics@master
+        id: metrics
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: hxreborn
           template: classic
           filename: metrics.svg
 
-          base: header, repositories, metadata
+          base: header, repositories
           repositories_forks: no
           repositories_affiliations: owner, collaborator, organization_member
           commits_authoring: ${{ secrets.COMMITS_AUTHORING }}
@@ -41,7 +42,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          config_output: markdown-details
+          config_padding: 0, 6%
 
           repositories_skipped: |
             peak/s5cmd
