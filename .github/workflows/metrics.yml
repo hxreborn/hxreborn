@@ -17,6 +17,7 @@ jobs:
           user: hxreborn
           template: classic
           filename: metrics.svg
+          debug: yes
 
           base: header, repositories
           repositories_forks: no
