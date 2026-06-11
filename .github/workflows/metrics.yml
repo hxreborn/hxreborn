@@ -39,6 +39,7 @@ jobs:
           plugin_notable_skipped: |
             @use.patterns
             Xposed-Modules-Repo/*
+            apache/*
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
