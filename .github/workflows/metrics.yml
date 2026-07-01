@@ -40,6 +40,7 @@ jobs:
             @use.patterns
             Xposed-Modules-Repo/*
             apache/*
+            libxposed/*
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
