@@ -2,9 +2,6 @@
   <img src="./metrics.svg" alt="hxreborn's GitHub metrics">
   <br>
   <a href="https://ko-fi.com/hxreborn">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/kofi-dark.svg">
-      <img src="./assets/kofi-light.svg" alt="Support me on Ko-fi">
-    </picture>
+    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi" width="300">
   </a>
 </p>
