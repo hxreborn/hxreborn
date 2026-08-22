@@ -21,7 +21,7 @@ jobs:
           base: header, repositories
           repositories_forks: no
           repositories_affiliations: owner, collaborator, organization_member
-          repositories_batch: 30
+          repositories_batch: 100
           commits_authoring: ${{ secrets.COMMITS_AUTHORING }}
 
           plugin_languages: yes
@@ -30,16 +30,6 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_indepth: no
           plugin_languages_ignored: Adblock Filter List, HTML, CSS, Makefile, Dockerfile, YAML, JSON, TOML, Nix, Markdown
-          plugin_languages_skipped: |
-            apache/netbeans
-            rushiforai/morphe-archive
-            openai/codex
-            openai/openai-agents-python
-            cloudflare/cloudflared
-            HyDE-Project/HyDE
-            HyDE-Project/hyde-ipc
-            spring-projects/spring-data-elasticsearch
-            JetBrains/koog
 
           plugin_notable: yes
           plugin_notable_from: organization
