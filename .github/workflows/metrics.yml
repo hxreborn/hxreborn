@@ -21,7 +21,7 @@ jobs:
           base: header, repositories
           repositories_forks: no
           repositories_affiliations: owner, collaborator, organization_member
-          repositories_batch: 50
+          repositories_batch: 25
           commits_authoring: ${{ secrets.COMMITS_AUTHORING }}
 
           plugin_languages: yes
