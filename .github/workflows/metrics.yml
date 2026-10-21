@@ -39,7 +39,6 @@ jobs:
           plugin_notable_skipped: |
             @use.patterns
             Xposed-Modules-Repo/*
-            gh-metrics/*
             libxposed/*
 
           plugin_isocalendar: yes
